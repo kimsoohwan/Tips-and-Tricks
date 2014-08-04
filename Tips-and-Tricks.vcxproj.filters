@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="bit_manipulation">
+      <UniqueIdentifier>{811dc783-268d-4dd1-9ae2-812ecd8ff78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prime_number">
+      <UniqueIdentifier>{38ef4496-15e6-408c-8c16-297ae22813d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="operators">
+      <UniqueIdentifier>{67a6fd66-e2cb-4938-80de-1f9dfa12d069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="swap">
+      <UniqueIdentifier>{89be6c42-d0a7-4d93-abbf-c98986ffd629}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bit_manipulation.hpp">
+      <Filter>bit_manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\swap.hpp">
+      <Filter>swap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\operators.hpp">
+      <Filter>operators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prime_number.hpp">
+      <Filter>prime_number</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
