@@ -1,0 +1,5 @@
+c11, STL
+template
+Boost thread, pthread, OpenMP
+Google Test, Unit Test
+Linux
