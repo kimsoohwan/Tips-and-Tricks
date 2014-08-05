@@ -63,9 +63,11 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\array.hpp" />
     <ClInclude Include="include\bit_manipulation.hpp" />
     <ClInclude Include="include\operators.hpp" />
     <ClInclude Include="include\prime_number.hpp" />
+    <ClInclude Include="include\string.hpp" />
     <ClInclude Include="include\swap.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

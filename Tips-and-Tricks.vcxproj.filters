@@ -16,6 +16,12 @@
     <Filter Include="swap">
       <UniqueIdentifier>{89be6c42-d0a7-4d93-abbf-c98986ffd629}</UniqueIdentifier>
     </Filter>
+    <Filter Include="string">
+      <UniqueIdentifier>{8e59e8d2-6f20-4334-8737-0eb3004ca457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="array">
+      <UniqueIdentifier>{0a6b932b-9672-4f4c-aec4-dfe426b665fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\bit_manipulation.hpp">
@@ -29,6 +35,12 @@
     </ClInclude>
     <ClInclude Include="include\prime_number.hpp">
       <Filter>prime_number</Filter>
+    </ClInclude>
+    <ClInclude Include="include\string.hpp">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="include\array.hpp">
+      <Filter>array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

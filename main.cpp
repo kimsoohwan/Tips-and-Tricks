@@ -1,5 +1,6 @@
 // STL
 #include <iostream>
+#include <string>
 #include <climits>
 using namespace std;
 
@@ -8,6 +9,8 @@ using namespace std;
 #include "include/operators.hpp"
 #include "include/swap.hpp"
 #include "include/prime_number.hpp"
+#include "include/string.hpp"
+#include "include/array.hpp"
 
 int main()
 {
@@ -72,6 +75,19 @@ int main()
 
 	// prime numbers
 	printPrimeNumbers(10);
+
+	// reverse string
+	string str("reverse_string");
+	cout << str << " -> ";
+	reverseString(str);
+	cout << str << endl;
+	cout << endl;
+
+	// array
+	Array2D<int> array2D(3, 4);
+	cout << "before: " << array2D[0][0] << endl;
+	array2D[0][0] = 3;
+	cout << "after: " << array2D[0][0] << endl;
 
 	system("pause");
 	return 0;
