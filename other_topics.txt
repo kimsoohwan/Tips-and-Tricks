@@ -3,3 +3,4 @@ template
 Boost thread, pthread, OpenMP
 Google Test, Unit Test
 Linux
+shallow/deep copy
