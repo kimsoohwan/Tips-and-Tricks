@@ -70,6 +70,9 @@
     <ClInclude Include="include\string.hpp" />
     <ClInclude Include="include\swap.hpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="other_topics.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

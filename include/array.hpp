@@ -8,18 +8,23 @@ template <typename T>
 class Array2D
 {
 public:
-	Array2D(const unsigned int rows, const unsigned int cols)
-		: data(rows, vector<T>(cols))
+	Array2D(const size_t rows, const size_t cols)
+		: m_rows(rows),
+		  m_cols(cols),
+		  m_data(rows, vector<T>(cols))
 	{
 	}
 
-	vector<T>& operator[] (const unsigned int row)
+	vector<T>& operator[] (const size_t row)
 	{
-		return data[row];
+		assert(row < m_rows);
+		return m_data[row];
 	}
 
 protected:
-	vector< vector<T> > data;
+	const size_t			m_rows;
+	const size_t			m_cols;
+	vector< vector<T> >	m_data;
 };
 
 #endif

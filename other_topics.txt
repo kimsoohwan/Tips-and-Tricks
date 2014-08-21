@@ -4,3 +4,34 @@ Boost thread, pthread, OpenMP
 Google Test, Unit Test
 Linux
 shallow/deep copy
+
+C
+pointer vs. reference
+heap vs. stack - function argument?
+how to print "Hello, World" with an empty main function
+
+C++
+virtual constructor/destructor
+overloading vs. overriding
+STL vector vs. C array
+copy constructor vs. memcpy
+
+Programming
+static vs. dynamic linking
+
+Computer Vision
+PTAM (Parallel Tracking and Mapping)
+coplaner check for three points
+SIFT keypoint detector
+SIFT scale and rotation invariance how
+Essential matrix, Fundamental matrix
+camera calibration
+stereo image rectification
+stereo matching sliding window size
+SfM (Structure from Motion)
+point cloud registration
+optical flow coner points vs. edge points
+
+Computer Graphics
+virtual camera parameters
+Z-buffer

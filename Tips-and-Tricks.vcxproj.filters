@@ -4,43 +4,49 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="bit_manipulation">
+    <Filter Include="src">
+      <UniqueIdentifier>{0ca07559-2702-499f-83e2-4d42f53847d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\array">
+      <UniqueIdentifier>{0a6b932b-9672-4f4c-aec4-dfe426b665fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\bit_manipulation">
       <UniqueIdentifier>{811dc783-268d-4dd1-9ae2-812ecd8ff78b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="prime_number">
-      <UniqueIdentifier>{38ef4496-15e6-408c-8c16-297ae22813d5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="operators">
+    <Filter Include="src\operators">
       <UniqueIdentifier>{67a6fd66-e2cb-4938-80de-1f9dfa12d069}</UniqueIdentifier>
     </Filter>
-    <Filter Include="swap">
-      <UniqueIdentifier>{89be6c42-d0a7-4d93-abbf-c98986ffd629}</UniqueIdentifier>
+    <Filter Include="src\prime_number">
+      <UniqueIdentifier>{38ef4496-15e6-408c-8c16-297ae22813d5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="string">
+    <Filter Include="src\string">
       <UniqueIdentifier>{8e59e8d2-6f20-4334-8737-0eb3004ca457}</UniqueIdentifier>
     </Filter>
-    <Filter Include="array">
-      <UniqueIdentifier>{0a6b932b-9672-4f4c-aec4-dfe426b665fc}</UniqueIdentifier>
+    <Filter Include="src\swap">
+      <UniqueIdentifier>{89be6c42-d0a7-4d93-abbf-c98986ffd629}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\bit_manipulation.hpp">
-      <Filter>bit_manipulation</Filter>
+      <Filter>src\bit_manipulation</Filter>
     </ClInclude>
     <ClInclude Include="include\swap.hpp">
-      <Filter>swap</Filter>
+      <Filter>src\swap</Filter>
     </ClInclude>
     <ClInclude Include="include\operators.hpp">
-      <Filter>operators</Filter>
+      <Filter>src\operators</Filter>
     </ClInclude>
     <ClInclude Include="include\prime_number.hpp">
-      <Filter>prime_number</Filter>
+      <Filter>src\prime_number</Filter>
     </ClInclude>
     <ClInclude Include="include\string.hpp">
-      <Filter>string</Filter>
+      <Filter>src\string</Filter>
     </ClInclude>
     <ClInclude Include="include\array.hpp">
-      <Filter>array</Filter>
+      <Filter>src\array</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="other_topics.txt" />
   </ItemGroup>
 </Project>
